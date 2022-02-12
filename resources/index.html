@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="/resources/style.css" />
+    <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous"></script>
+    <title>Etch-A-Sketch</title>
+</head>
+
+<body>
+    <header>Etch-A-Sketch</header>
+    <main>
+        <div class="settings">
+            <input id="colorPicker" type="color" value="#333333">
+            <button id="colorBtn">Select Color</button>
+            <button id="rainbowBtn">Rainbow Mode</button>
+            <button id="eraserBtn">Eraser</button>
+            <button id="clearBtn">Clear All</button>
+            <div id="sizeValue" class="size-value">16 x 16</div>
+            <input type="range" id="sizeSlider" value="16" min="1" max="64">
+        </div>
+        <div id="grid" class="grid"></div>
+    </main>
+    <footer>
+        <p>
+            Copyright
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Harold Martin Patacsil
+        </p>
+        <a href="https://github.com/yskooo" target="_blank">
+            <i class="fab fa-github"></i
+          ></a>
+    </footer>
+    <script src="/resources/script.js"></script>
+</body>
+
+</html>
