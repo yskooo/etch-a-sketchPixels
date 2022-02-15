@@ -179,8 +179,12 @@ footer {
 }
 
 @media (max-width: 850px) {
+    header {
+        padding: 1rem;
+    }
     main {
         gap: 3rem;
+        padding: 5rem;
     }
     .settings {
         width: 150px;
@@ -191,7 +195,7 @@ footer {
     }
     .grid {
         width: 400px;
-        height: 50rem;
+        height: 25rem;
     }
 }
 
