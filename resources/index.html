@@ -15,8 +15,14 @@
 </head>
 
 <body>
-    <header>Etch-A-Sketch</header>
+    <video id="background-video" autoplay loop muted poster="/resources/video/backgroundpixels.mp4">
+        <source src="/resources/video/backgroundpixels.mp4" type="video/mp4">
+    </video>
+    <header>
+        <h1 class="title">Etch-A-Sketch</h1>
+    </header>
     <main>
+
         <div class="settings">
             <input id="colorPicker" type="color" value="#333333">
             <button id="colorBtn">Select Color</button>
@@ -37,8 +43,7 @@
             Harold Martin Patacsil
         </p>
         <a href="https://github.com/yskooo" target="_blank">
-            <i class="fab fa-github"></i
-          ></a>
+            <i class="fab fa-github"></i></a>
     </footer>
     <script src="/resources/script.js"></script>
 </body>
