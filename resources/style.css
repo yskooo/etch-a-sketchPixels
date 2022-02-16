@@ -25,6 +25,18 @@ body {
     margin: 0 0 100px 0;
 }
 
+#background-video {
+    width: 700vw;
+    height: 150vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 h1 {
     line-height: 1.2;
 }
@@ -180,11 +192,11 @@ footer {
 
 @media (max-width: 850px) {
     header {
-        padding: 1rem;
+        padding: 2rem 0 0 0;
     }
     main {
         gap: 3rem;
-        padding: 5rem;
+        padding: 3rem;
     }
     .settings {
         width: 150px;
