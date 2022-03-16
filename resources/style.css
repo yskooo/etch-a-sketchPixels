@@ -25,6 +25,18 @@ body {
     margin: 0 0 100px 0;
 }
 
+#background-video {
+    width: 700vw;
+    height: 150vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 h1 {
     line-height: 1.2;
 }
@@ -179,8 +191,12 @@ footer {
 }
 
 @media (max-width: 850px) {
+    header {
+        padding: 2rem 0 0 0;
+    }
     main {
         gap: 3rem;
+        padding: 3rem;
     }
     .settings {
         width: 150px;
@@ -191,15 +207,29 @@ footer {
     }
     .grid {
         width: 400px;
-        height: 50rem;
+        height: 25rem;
     }
 }
 
 @media (max-width: 650px) {
     .title {
-        font-size: 50px;
+        font-size: 5rem;
     }
-    .main {
+    main {
+        flex-direction: column-reverse;
+    }
+    .grid {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 375) {
+    .title {
+        font-size: 2rem;
+    }
+    main {
+        display: flex;
         flex-direction: column-reverse;
     }
     .grid {

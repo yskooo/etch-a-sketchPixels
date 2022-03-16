@@ -9,16 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="/resources/style.css" />
+    <link rel="stylesheet" href="./resources/style.css" />
     <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous"></script>
     <title>Etch-A-Sketch</title>
 </head>
 
 <body>
+    <video id="background-video" autoplay loop muted poster="./video/backgroundpixels.mp4">
+        <source src="./video/backgroundpixels.mp4" type="video/mp4">
+    </video>
     <header>
         <h1 class="title">Etch-A-Sketch</h1>
     </header>
     <main>
+
         <div class="settings">
             <input id="colorPicker" type="color" value="#333333">
             <button id="colorBtn">Select Color</button>
@@ -41,7 +45,7 @@
         <a href="https://github.com/yskooo" target="_blank">
             <i class="fab fa-github"></i></a>
     </footer>
-    <script src="/resources/script.js"></script>
+    <script src="./resources/script.js"></script>
 </body>
 
 </html>
