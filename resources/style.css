@@ -20,7 +20,7 @@ html {
 body {
     background: var(--primary-light);
     color: var(--primary-dark);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     line-height: 1.6;
     margin: 0 0 100px 0;
 }
