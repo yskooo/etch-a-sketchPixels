@@ -20,7 +20,7 @@ html {
 body {
     background: var(--primary-light);
     color: var(--primary-dark);
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Permanent Marker', sans-serif;
     line-height: 1.6;
     margin: 0 0 100px 0;
 }
@@ -172,7 +172,7 @@ footer {
     width: 100%;
     padding: 10px;
     font-size: 1rem;
-    font-family: cursive;
+    font-family: sans-serif;
     padding-bottom:1rem;
     cursor:pointer;
 }
